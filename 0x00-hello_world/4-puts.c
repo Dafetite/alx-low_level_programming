@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - takes no stdin
- * return - Always 0 (Success)
- * This code prints out str(Mystr)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
