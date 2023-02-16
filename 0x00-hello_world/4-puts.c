@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-This code takes no stdin argument but prints the str(Mystr) to stdout
+*This code takes no stdin argument but prints the str(Mystr) to stdout
 */
 int main(void)
 {
