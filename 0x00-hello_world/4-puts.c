@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  *This code prints out str(Mystr)
+ *main takes no stdin
  */
 int main(void)
 {
