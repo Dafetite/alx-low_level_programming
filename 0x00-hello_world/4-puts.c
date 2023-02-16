@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+This code takes no stdin argument but prints the str(Mystr) to stdout
+*/
 int main(void)
 {
 char Mystr[] = "\"Programming is like building a multilingual puzzle";
