@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - takes no stdin
- * return: int (0) as stdout
+ * return: 0 (success)
  * This code prints out str(Mystr)
  */
 int main(void)
