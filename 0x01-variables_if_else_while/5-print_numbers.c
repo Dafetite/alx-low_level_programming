@@ -7,11 +7,9 @@
 
 int main(void)
 {
-
-char alpha[] = "0123456789";
-int dafe;
-for (dafe = 0; dafe < 10; dafe++)
-putchar(alpha[dafe]);
+int i;
+for (i = 48; i < 58; i++)
+putchar(i);
 putchar('\n');
 return (0);
 }
