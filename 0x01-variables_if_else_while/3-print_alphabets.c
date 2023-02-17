@@ -11,7 +11,7 @@ int main(void)
 
 char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int dafe;
-for (dafe = 0; dafe < 100; dafe++)
+for (dafe = 0; dafe < 53; dafe++)
 putchar(alpha[dafe]);
 putchar('\n');
 return (0);
