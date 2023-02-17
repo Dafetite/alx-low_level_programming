@@ -1,18 +1,22 @@
 #include <stdio.h>
-#include <ctype.h>
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
+char ch, Uch;
 
-char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int dafe;
-for (dafe = 0; dafe < 52; dafe++)
-putchar(alpha[dafe]);
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);
+}
+for (Uch = 'A'; Uch <= 'Z'; Uch++)
+{
+putchar(Uch);
+}
 putchar('\n');
 return (0);
 }
