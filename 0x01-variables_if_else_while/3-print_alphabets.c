@@ -9,7 +9,7 @@
 int main(void)
 {
 
-char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$";
+char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int dafe;
 for (dafe = 0; dafe < 26; dafe++)
 putchar(alpha[dafe]);
