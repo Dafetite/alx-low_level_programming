@@ -1,18 +1,18 @@
 #include <stdio.h>
-#include <ctype.h>
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
+char ch;
 
-char alpha[] = "abcdefghijklmnopqrstuvwxyz";
-int dafe;
-for (dafe = 0; dafe < 26; dafe++)
-putchar(alpha[dafe]);
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);
+}
 putchar('\n');
 return (0);
 }
