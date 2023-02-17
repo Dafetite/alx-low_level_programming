@@ -10,7 +10,7 @@ int main(void)
 {
 
 int dafe;
-for (dafe = 0; dafe < 10; dafe++)
+for (dafe = 48; dafe < 58; dafe++)
 putchar(dafe);
 putchar('\n');
 return (0);
