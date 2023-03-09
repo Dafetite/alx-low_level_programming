@@ -1,2 +1,1 @@
-alx-low_level_programming
-from vscode d drive
+0x09-static_libraries
